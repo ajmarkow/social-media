@@ -8,7 +8,7 @@ function Profile() {
         <div class="card">
           <div class="card-body">
             <span class="block">
-              <img src="http://lorempixel.com/75/75/"></img>
+              <img src="http://lorempixel.com/75/75/" alt='abstract'></img>
             </span>
             <blockquote class="blockquote">
               <p>Alex Goodwin</p>

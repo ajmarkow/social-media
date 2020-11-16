@@ -7,8 +7,8 @@ import PostTweet from "./PostTweet.js";
 import Friends from "./Friends.js";
 
 function App() {
-  const name = "Bob";
-  const tweet = "Lorem Ipsum";
+  // const name = "Bob";
+  // const tweet = "Lorem Ipsum";
   return (
     <React.Fragment>
       <NavBar />

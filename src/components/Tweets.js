@@ -3,7 +3,7 @@ import React from 'react'
 function TweetList(){
   return(
     <div class="card">
-      <img class="card-img-top" src="http://lorempixel.com/240/80/abstract/1" alt="Card image cap"></img>
+      <img class="card-img-top" src="http://lorempixel.com/240/80/abstract/1" alt="painting"></img>
       <div class="card-body">
         <h4 class="card-title">Tweets</h4>
         <p class="card-text">Lorem ipsum</p>
