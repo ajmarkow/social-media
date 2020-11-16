@@ -12,21 +12,21 @@ function App() {
   return (
     <React.Fragment>
       <NavBar />
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <div class="row">
+      <div className="container">
+        <div className="row">
+          <div className="col-3">
+            <div className="row">
               <Profile />
             </div>
-            <div class="row">
+            <div className="row">
               <Info />
             </div>
           </div>
-          <div class="col-6">
+          <div className="col-6">
             <PostTweet />
             <TweetList />
           </div>
-          <div class= 'col-3'>
+          <div className= 'col-3'>
             <Friends />
           </div>
         </div>

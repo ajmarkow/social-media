@@ -1,22 +1,23 @@
 import React from "react";
+import Person from "./Person"
 
 const masterFriendList = [
   {
-    name: "George Washington"
+    name: 'George Washington'
   },
   {
-    name: "Elon Musk"
+    name: 'Elon Musk'
   },
   {
-    name: "Nikola Tesla"
+    name: 'Nikola Tesla'
   }
 ];
 
 function Friends() {
   return (
     <React.Fragment>
-          {masterFriendList.map((friends, index) => 
-            <Friends names={friends.name} 
+          {masterFriendList.map((person, index) => 
+            <Person name={person.name} 
                 key={index} />
           )}
     </React.Fragment>
